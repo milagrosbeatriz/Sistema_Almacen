@@ -10,6 +10,7 @@ class ValidateController extends CI_Controller {
 	public function Route($page){
 		if($page == "RegisterGlasses"){
 			$this->load->view("RegisterGlasses");
+<<<<<<< HEAD
 		}
 		if($page=="RegisterProducts"){
 			$this->load->view("RegisterProducts");
@@ -18,6 +19,11 @@ class ValidateController extends CI_Controller {
 			$this->load->view("RegisterUser");
 		}
 
+=======
+		}else{
+			$this->load->view("RegisterProducts");
+		}
+>>>>>>> ae27949bae87a356e2009d386d223b244a1ad27b
 		
 	}
 

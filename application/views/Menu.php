@@ -90,7 +90,12 @@
               <div class="collapsible-body acordion-item" onclick="Route('RegisterProducts');"><a>Descartables</a></div>
             </li>
             <li>
+<<<<<<< HEAD
               <div class="collapsible-header" onclick="Route('RegisterUser');"><a>Usuario</a></div>
+=======
+              <div class="collapsible-header"><i class="mdi-image-timer-auto"></i>Usuario</div>
+              <div class="collapsible-body"><p>En mantenimiento</p></div>
+>>>>>>> ae27949bae87a356e2009d386d223b244a1ad27b
             </li>
           </ul>
   </div>
